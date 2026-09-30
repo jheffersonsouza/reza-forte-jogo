@@ -1,0 +1,81 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/art/visagem.svg" id="1_art"]
+[ext_resource type="Script" path="res://scripts/scene_button.gd" id="2_button"]
+[ext_resource type="AudioStream" path="res://assets/audio/coruja.ogg" id="3_sound"]
+
+[node name="Defeat" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_art")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -210.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Panel" type="PanelContainer" parent="Center"]
+layout_mode = 2
+
+[node name="Column" type="VBoxContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Heading" type="Label" parent="Center/Panel/Column"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.81, 0.54, 1)
+theme_override_font_sizes/font_size = 44
+text = "A reza quebrou..."
+horizontal_alignment = 1
+
+[node name="Body" type="Label" parent="Center/Panel/Column"]
+custom_minimum_size = Vector2(680, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "A porta de taipa rangeu e se abriu. Os olhos da visagem brilharam no escuro, e ela entrou na casa."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Actions" type="HBoxContainer" parent="Center/Panel/Column"]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="PlayAgainButton" type="Button" parent="Center/Panel/Column/Actions"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Tentar de novo"
+script = ExtResource("2_button")
+target_scene = "res://scenes/game.tscn"
+autofocus = true
+
+[node name="TitleButton" type="Button" parent="Center/Panel/Column/Actions"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Menu inicial"
+script = ExtResource("2_button")
+target_scene = "res://scenes/title.tscn"
+
+[node name="OwlScreech" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_sound")
+autoplay = true

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- salt heap -->
+  <g stroke="#b8b3a6" stroke-width="2">
+    <polygon points="60,150 80,110 100,120 90,152" fill="#f2efe6"/>
+    <polygon points="86,150 104,96 132,104 124,150" fill="#ffffff"/>
+    <polygon points="118,150 130,84 160,98 158,150" fill="#e8e4d8"/>
+    <polygon points="150,150 162,106 188,116 194,150" fill="#f7f4ec"/>
+    <polygon points="100,120 116,110 124,128 104,134" fill="#dcd7c9"/>
+    <polygon points="142,118 156,112 160,130 140,134" fill="#ffffff"/>
+    <polygon points="170,128 182,124 186,142 168,142" fill="#e3dfd2"/>
+    <polygon points="76,136 88,130 92,148 74,148" fill="#ffffff"/>
+  </g>
+  <!-- clay bowl -->
+  <path d="M40 150 Q128 250 216 150 Z" fill="#8a4526"/>
+  <path d="M60 170 Q128 225 196 170" fill="none" stroke="#6a3219" stroke-width="5"/>
+  <ellipse cx="128" cy="150" rx="90" ry="14" fill="none" stroke="#b0633a" stroke-width="8"/>
+  <ellipse cx="128" cy="222" rx="36" ry="7" fill="#5c2b15"/>
+</svg>
