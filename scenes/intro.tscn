@@ -55,7 +55,6 @@ A cada volta a reza cresce. Se tu aguentar até o galo cantar, ela vai embora. S
 autowrap_mode = 3
 
 [node name="ReadyButton" type="Button" parent="Center/Panel/Column"]
-unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 8
 text = "Tô pronto, vó"

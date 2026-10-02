@@ -53,7 +53,6 @@ custom_minimum_size = Vector2(0, 36)
 layout_mode = 2
 
 [node name="StartButton" type="Button" parent="Center/Column"]
-unique_name_in_owner = true
 custom_minimum_size = Vector2(260, 0)
 layout_mode = 2
 size_flags_horizontal = 4
