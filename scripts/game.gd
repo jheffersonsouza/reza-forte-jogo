@@ -1,9 +1,6 @@
 extends Control
 ## One night of prayer: the grandmother shows the sequence, the player repeats it.
 
-signal object_highlighted(button: BaseButton)
-signal turn_started
-
 const GOAL := 8
 const VICTORY_SCENE := "res://scenes/victory.tscn"
 const DEFEAT_SCENE := "res://scenes/defeat.tscn"
@@ -45,12 +42,10 @@ func _start_round() -> void:
 	_turn_label.text = "Presta atenção na reza da vó..."
 	await _wait(PAUSE_SECONDS)
 	for index in _prayer.steps:
-		object_highlighted.emit(_objects[index])
 		await _flash(_objects[index]).finished
 		await _wait(GAP_SECONDS)
 	_turn_label.text = "Tua vez! Repete a reza."
 	_set_input_enabled(true)
-	turn_started.emit()
 
 
 func _on_object_pressed(index: int) -> void:
