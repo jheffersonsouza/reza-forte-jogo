@@ -1,1 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="124" height="124" x="2" y="2" fill="#363d52" stroke="#212532" stroke-width="4" rx="14"/><g fill="#fff" transform="translate(12.322 12.322)scale(.101)"><path d="M105 673v33q407 354 814 0v-33z"/><path fill="#478cbf" d="m105 673 152 14q12 1 15 14l4 67 132 10 8-61q2-11 15-15h162q13 4 15 15l8 61 132-10 4-67q3-13 15-14l152-14V427q30-39 56-81-35-59-83-108-43 20-82 47-40-37-88-64 7-51 8-102-59-28-123-42-26 43-46 89-49-7-98 0-20-46-46-89-64 14-123 42 1 51 8 102-48 27-88 64-39-27-82-47-48 49-83 108 26 42 56 81zm0 33v39c0 276 813 276 814 0v-39l-134 12-5 69q-2 10-14 13l-162 11q-12 0-16-11l-10-65H446l-10 65q-4 11-16 11l-162-11q-12-3-14-13l-5-69z"/><path d="M483 600c0 34 58 34 58 0v-86c0-34-58-34-58 0z"/><circle cx="725" cy="526" r="90"/><circle cx="299" cy="526" r="90"/></g><g fill="#414042" transform="translate(12.322 12.322)scale(.101)"><circle cx="307" cy="532" r="60"/><circle cx="717" cy="532" r="60"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="room" cx="64" cy="96" r="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5a2f14"/>
+      <stop offset="0.45" stop-color="#2a150a"/>
+      <stop offset="1" stop-color="#070403"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="64" cy="44" r="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.75"/>
+      <stop offset="0.4" stop-color="#ff9a3c" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ff7a20" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wax" x1="52" y1="0" x2="76" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c49a50"/>
+      <stop offset="0.3" stop-color="#f6e2a6"/>
+      <stop offset="1" stop-color="#9a7234"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="64" cy="44" r="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#ffe9a0"/>
+      <stop offset="0.75" stop-color="#ff9a2e"/>
+      <stop offset="1" stop-color="#e2450c"/>
+    </radialGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fbffe8"/>
+      <stop offset="0.35" stop-color="#d6ff7a"/>
+      <stop offset="1" stop-color="#9ae63a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#room)"/>
+  <circle cx="64" cy="44" r="46" fill="url(#glow)"/>
+  <!-- the visagem watching from the dark corner -->
+  <circle cx="22" cy="26" r="7" fill="url(#eye)"/>
+  <circle cx="36" cy="24" r="7" fill="url(#eye)"/>
+  <!-- clay saucer -->
+  <ellipse cx="64" cy="106" rx="30" ry="8" fill="#6b2f16"/>
+  <ellipse cx="64" cy="103" rx="26" ry="6" fill="#b4602f"/>
+  <!-- carnauba candle with drips -->
+  <path d="M52 60Q52 56 56 55Q64 53 72 55Q76 56 76 60V102Q64 106 52 102Z" fill="url(#wax)"/>
+  <path d="M52 60Q52 55 57 54Q64 52 71 54Q76 55 76 60Q64 64 52 60Z" fill="#fbecc0"/>
+  <path d="M57 60V74A2.6 2.6 0 0 0 62.2 74V61Z" fill="#f6e2a6"/>
+  <path d="M68 61V68A2.4 2.4 0 0 0 72.8 68V60Z" fill="#f6e2a6"/>
+  <path d="M64 57Q63 53 64.5 50" stroke="#1e130b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- flame -->
+  <path d="M64.5 22C71 32 75 40 73 46C71.5 51 68 53 64.5 53C61 53 57.5 51 56 46C54 40 58 32 64.5 22Z" fill="url(#flame)"/>
+</svg>
