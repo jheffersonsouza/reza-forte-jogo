@@ -4,7 +4,6 @@
 [ext_resource type="AudioStream" path="res://assets/audio/corinho_de_fogo.ogg" id="2_song"]
 
 [node name="Music" type="AudioStreamPlayer"]
-process_mode = 3
 stream = ExtResource("2_song")
 volume_db = 24.0
 autoplay = true

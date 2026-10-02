@@ -81,5 +81,4 @@ func _flash(button: BaseButton) -> Tween:
 
 
 func _wait(seconds: float) -> Signal:
-	# process_always = false, so the pause menu freezes the demo too.
-	return get_tree().create_timer(seconds, false).timeout
+	return get_tree().create_timer(seconds).timeout
