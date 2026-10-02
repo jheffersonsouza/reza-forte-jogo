@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cuh1pwoxl53au"
-path="res://.godot/imported/vela.svg-e8775727094d86de9a930a35bd704beb.ctex"
+uid="uid://b10ivig3u0w1u"
+path="res://.godot/imported/arruda.webp-74818ff3d87eb3f7ed702f7ee3093547.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/vela.svg"
-dest_files=["res://.godot/imported/vela.svg-e8775727094d86de9a930a35bd704beb.ctex"]
+source_file="res://assets/art/arruda.webp"
+dest_files=["res://.godot/imported/arruda.webp-74818ff3d87eb3f7ed702f7ee3093547.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

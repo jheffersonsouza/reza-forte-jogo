@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjgvikivu12ml"
-path="res://.godot/imported/sal_grosso.svg-bc111148ab654fa5c48cf113e1ffadd4.ctex"
+uid="uid://bqew1k81edbdg"
+path="res://.godot/imported/background.webp-4986ab7af453f22419f334f9d643b34e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/sal_grosso.svg"
-dest_files=["res://.godot/imported/sal_grosso.svg-bc111148ab654fa5c48cf113e1ffadd4.ctex"]
+source_file="res://assets/art/background.webp"
+dest_files=["res://.godot/imported/background.webp-4986ab7af453f22419f334f9d643b34e.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

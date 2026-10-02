@@ -1,6 +1,6 @@
 [gd_scene format=3]
 
-[ext_resource type="Texture2D" path="res://assets/art/background.svg" id="1_art"]
+[ext_resource type="Texture2D" path="res://assets/art/amanhecer.webp" id="1_art"]
 [ext_resource type="Script" path="res://scripts/scene_button.gd" id="2_button"]
 [ext_resource type="AudioStream" path="res://assets/audio/galo.mp3" id="3_sound"]
 
@@ -13,7 +13,6 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Background" type="TextureRect" parent="."]
-modulate = Color(1.7, 1.45, 1.2, 1)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

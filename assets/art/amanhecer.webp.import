@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bn4xtga7gasak"
-path="res://.godot/imported/background.svg-559f48f639451a32ba08e397f1660eb9.ctex"
+uid="uid://bnn441wkyk8ji"
+path="res://.godot/imported/amanhecer.webp-930a16aa9e02d433f32f622933729cb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/background.svg"
-dest_files=["res://.godot/imported/background.svg-559f48f639451a32ba08e397f1660eb9.ctex"]
+source_file="res://assets/art/amanhecer.webp"
+dest_files=["res://.godot/imported/amanhecer.webp-930a16aa9e02d433f32f622933729cb5.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cy3mna00ef3ep"
-path="res://.godot/imported/terco.svg-ff8b75544c1448a401dd71eb2a69faff.ctex"
+uid="uid://fnxl8wudy6jb"
+path="res://.godot/imported/vela.webp-f0fc26e4fb903e6b997aeb03c7d9f35a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/terco.svg"
-dest_files=["res://.godot/imported/terco.svg-ff8b75544c1448a401dd71eb2a69faff.ctex"]
+source_file="res://assets/art/vela.webp"
+dest_files=["res://.godot/imported/vela.webp-f0fc26e4fb903e6b997aeb03c7d9f35a.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
